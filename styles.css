@@ -1,3 +1,4 @@
+/* Reset and Global Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,6 +7,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Main Container Styling */
 header, main, footer {
     max-width: 960px;
     margin: 20px auto;
@@ -13,10 +15,32 @@ header, main, footer {
     background-color: #fff;
 }
 
-header h1 {
-    text-align: center;
+/* Header Styling */
+header {
+    background-image: url('./images/AICD3HERO.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #ffffff;
 }
 
+header h1 {
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Styling (if you need it later) */
+nav {
+    /* Any styling you want for your navigation */
+}
+
+/* Footer Styling */
 footer p {
     text-align: center;
 }
