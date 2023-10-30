@@ -17,6 +17,7 @@ header, main, footer {
 
 /* Header Styling */
 header {
+    position: relative;
     background-image: url('./images/AICD3HERO.png');
     background-size: cover;
     background-position: center;
@@ -34,6 +35,26 @@ header h1 {
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+.coming-soon {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: red;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Adds a slightly white background for better visibility */
+    padding: 5px;
+    border-radius: 5px; /* Optional: Rounds the corners of the background */
+}
+
+.school-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; 
+    height: auto;
+}
+
 
 /* Navigation Styling */
 nav {
