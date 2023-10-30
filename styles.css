@@ -121,10 +121,30 @@ nav a:hover {
     transition: transform 0.5s;
 }
 
+#curriculum-card .card-front {
+    background-image: url('./images/hero.png');
+    /* ... other common card-front styles ... */
+}
+
+#projects-card .card-front {
+    background-image: url('./images/capstone.png');
+    /* ... other common card-front styles ... */
+}
+
+#partnerships-card .card-front {
+    background-image: url('./images/partnership3.png');
+    /* ... other common card-front styles ... */
+}
+
 .card-back {
     background-color: #f4f4f4;
     transform: rotateY(180deg);
     transition: transform 0.5s;
+    background-image: url('./images/cardback.png');
+    background-size: cover;      /* ensures the image covers the entire card */
+    background-repeat: no-repeat; /* ensures the image doesn't repeat */
+    background-position: center; /* ensures the image is centered */
+    
 }
 
 .card:hover .card-front {
